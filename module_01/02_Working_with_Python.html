@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -166,6 +166,87 @@
    </li>
   </ul>
  </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../module_03/README.html">
+   Computational Mechanics 03- Initial Value Problems
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_03/01_Catch_Motion.html">
+     Catch things in motion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_03/02_Step_Future.html">
+     Step to the future
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_03/03_Get_Oscillations.html">
+     Get with the oscillations
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_03/04_Getting_to_the_root.html">
+     Roots of Nonlinear functions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../projects/03_IVP-project.html">
+     Initial Value Problems - Project
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../module_04/README.html">
+   Computational Mechanics 4 - Linear Algebra
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_04/01_Linear-Algebra.html">
+     Linear Algebra Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_04/02_Gauss_elimination.html">
+     Gauss Elimination
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../module_04/03_Linear-regression-algebra.html">
+     Linear Regression Algebra
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../how-to/README.html">
+   Quick How-to documents
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../how-to/polyfit.html">
+     Creating a quadratic fit on random data
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
     </div>
@@ -251,14 +332,14 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/cooperrc/computational-mechanics/main?urlpath=tree/module_01/02_Working_with_Python.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cooperrc/computational-mechanics/master?urlpath=tree/module_01/02_Working_with_Python.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
                     alt="Interact on binder">Binder</button></a>
         
         
-        <a class="jupyterhub-button" href="https://compmech.uconn.edu/hub/user-redirect/git-pull?repo=https://github.com/cooperrc/computational-mechanics&urlpath=tree/computational-mechanics/module_01/02_Working_with_Python.md&branch=main"><button type="button"
+        <a class="jupyterhub-button" href="https://compmech.uconn.edu/hub/user-redirect/git-pull?repo=https://github.com/cooperrc/computational-mechanics&urlpath=tree/computational-mechanics/module_01/02_Working_with_Python.md&branch=master"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch JupyterHub" data-toggle="tooltip"
                 data-placement="left"><img class="jupyterhub-button-logo"
                     src="../_static/images/logo_jupyterhub.svg"
@@ -899,7 +980,7 @@ you can do more computations, like add or multiply them. For example:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_1610/2664324349.py:1: RuntimeWarning: invalid value encountered in true_divide
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_1718/2664324349.py:1: RuntimeWarning: invalid value encountered in true_divide
   x_array / y_array
 </pre></div>
 </div>
@@ -1261,8 +1342,8 @@ with no numbers repeated.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[7, 47, 58, 14, 45, 9, 27, 28, 38, 87]
-[59, 63, 8, 56, 39, 1, 27, 71, 76, 17]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[41, 40, 65, 77, 71, 76, 62, 79, 30, 21]
+[78, 67, 55, 8, 15, 59, 9, 83, 48, 5]
 </pre></div>
 </div>
 </div>
@@ -1282,8 +1363,8 @@ takes to execute all the code in that cell.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 27 µs, sys: 3 µs, total: 30 µs
-Wall time: 33.9 µs
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 30 µs, sys: 5 µs, total: 35 µs
+Wall time: 37.7 µs
 </pre></div>
 </div>
 </div>
@@ -1295,7 +1376,7 @@ Wall time: 33.9 µs
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[66, 110, 66, 70, 84, 10, 54, 99, 114, 104]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[119, 107, 120, 85, 86, 135, 71, 162, 78, 26]
 </pre></div>
 </div>
 </div>
@@ -1329,8 +1410,8 @@ that the arrays and the lists are of the same length and type
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 6 83 36 29 40 60 86 78 42 33]
-[49 32 34 18 68 92 31 31 91 13]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[29  2 44 50 46 65  1  5 95  8]
+[92 31 32 92 38 78 37 70 76 25]
 </pre></div>
 </div>
 </div>
@@ -1344,8 +1425,8 @@ that the arrays and the lists are of the same length and type
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 11 µs, sys: 2 µs, total: 13 µs
-Wall time: 15 µs
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 12 µs, sys: 2 µs, total: 14 µs
+Wall time: 17.2 µs
 </pre></div>
 </div>
 </div>
@@ -1429,7 +1510,7 @@ in the x-axis, you need to import the module <code class="docutils literal notra
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f25c762e8e0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f10984c3d30&gt;
 </pre></div>
 </div>
 <img alt="../_images/02_Working_with_Python_104_1.png" src="../_images/02_Working_with_Python_104_1.png" />
@@ -1514,6 +1595,17 @@ of the two indices from 0 to 9 e.g. A_99[3,2]=6 and A_99[4,4]=16.</p>
 <ol class="simple">
 <li><p>The following linear interpolation function has an error. It is supposed to return y(x) given the the two points <span class="math notranslate nohighlight">\(p_1=[x_1,~y_1]\)</span> and <span class="math notranslate nohighlight">\(p_2=[x_2,~y_2]\)</span>. Currently, it just returns and error.</p></li>
 </ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">linInterp</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">p1</span><span class="p">,</span><span class="n">p2</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;linear interplation function</span>
+<span class="sd">    return y(x) given the two endpoints </span>
+<span class="sd">    p1=np.array([x1,y1])</span>
+<span class="sd">    and</span>
+<span class="sd">    p2=np.array([x2,y2])&#39;&#39;&#39;</span>
+    <span class="n">slope</span> <span class="o">=</span> <span class="p">(</span><span class="n">p2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">-</span><span class="n">p1</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="n">p2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">p1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    
+    <span class="k">return</span> <span class="n">p1</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">+</span><span class="n">slope</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">p1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
